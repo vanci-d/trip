@@ -74,7 +74,17 @@ height: 40rem;
 border: 2px, solid black;
 background: rgba(241, 16, 136, 0.488);
 border-radius: 2rem;
+}
 
+#myForm {
+
+					display: none;
+					/* Formulář je skrytý */
+					border: 1px solid black;
+					border-radius: 0.75rem;
+					background-color: #bada55;
+					padding: 20px;
+					width: 18rem;
 
 
 

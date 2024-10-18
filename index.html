@@ -13,17 +13,37 @@
 	<div class="app">
 
 		<nav class="menu">
-			<button class="Vlozit">Nový výlet</button>
-			<button class="Ukazat">Ukázat</button>
+			<button onclick="showForm()">Nový výlet</button>
+			<button class=" Ukazat">Ukázat</button>
 			<button class="">Moje tripy</button>
 			<button class=""></button>
 			<button class=""></button>
+
+
+
 
 		</nav>
 
 		<hr>
 
+		<div id="myForm">
+			<h3>Přidat nový obsah</h3>
+			<form action="#" method="post">
+				<label for="formTitle">Nadpis:</label><br>
+				<input type="text" id="formTitle" name="formTitle" required><br><br>
+
+				<label for="formText">Text:</label><br>
+				<textarea id="formText" name="formText" rows="4" cols="30" required></textarea><br><br>
+
+				<input type="submit" value="Odeslat">
+			</form>
+		</div>
+
 	</div>
+
+
+
+
 
 	<script src="/js/main.js"></script>
 
