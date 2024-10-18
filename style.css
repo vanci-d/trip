@@ -76,51 +76,67 @@ background: rgba(241, 16, 136, 0.488);
 border-radius: 2rem;
 }
 
-		    .modal {
-		    	display: none;
-		    	/* Skryté ve výchozím nastavení */
-		    	position: fixed;
-		    	/* Zůstává na místě */
-		    	z-index: 1;
-		    	/* Nad ostatním obsahem */
-		    	left: 0;
-		    	top: 0;
-		    	width: 100%;
-		    	/* Šířka celého okna */
-		    	height: 100%;
-		    	/* Výška celého okna */
-		    	overflow: auto;
-		    	/* Umožní rolování, pokud je to potřeba */
-		    	background-color: rgb(0, 0, 0);
-		    	/* Černé pozadí */
-		    	background-color: rgba(0, 0, 0, 0.4);
-		    	/* Transparentní */
-		    }
+						.modal {
+						display: none;
+						/* Skryté ve výchozím nastavení */
+						position: fixed;
+						/* Zůstává na místě */
+						z-index: 1;
+						/* Nad ostatním obsahem */
+						left: 0;
+						top: 0;
+						width: 100%;
+						/* Šířka celého okna */
+						height: 100%;
+						/* Výška celého okna */
+						overflow: auto;
+						/* Umožní rolování, pokud je to potřeba */
+						background-color: rgb(0, 0, 0);
+						/* Černé pozadí */
+						background-color: rgba(0, 0, 0, 0.4);
+						/* Transparentní */
+					}
 
-		    /* Styly pro samotné modální okno */
-		    .modal-content {
-		    	background-color: #bada55;
-		    	margin: 15% auto;
-		    	/* 15% shora a centrováno horizontálně */
-		    	padding: 20px;
-		    	border: 2px solid black;
-		    	width: 300px;
-		    	/* Šířka modálního okna */
+					/* Styly pro samotné modální okno */
+					.modal-content {
+						background-color: #bada55;
+						margin: 15% auto;
+						/* 15% shora a centrováno horizontálně */
+						padding: 20px;
+						border: 2px solid black;
+						width: 300px;
+						/* Šířka modálního okna */
 
-					border-radius: 0.75rem;
-		    }
+						border-radius: 0.75rem;
+					}
 
-		    /* Styl pro zavírací tlačítko */
-		    .close {
-		    	color: #aaa;
-		    	float: right;
-		    	font-size: 28px;
-		    	font-weight: bold;
-		    }
+					/* Styl pro zavírací tlačítko */
+					.close {
+						color: #aaa;
+						float: right;
+						font-size: 28px;
+						font-weight: bold;
+					}
 
-		    .close:hover,
-		    .close:focus {
-		    	color: black;
-		    	text-decoration: none;
-		    	cursor: pointer;
-		    }
+					.close:hover,
+					.close:focus {
+						color: black;
+						text-decoration: none;
+						cursor: pointer;
+					}
+
+.output{
+
+border: 2px solid black;
+border-radius: 0.75rem;
+display: grid;
+justify-content: center;
+	/* Horizontální centrování */
+align-items: center;
+	/* Vertikální centrování */
+
+margin-top: 10px;
+background-color: #bada55;
+text-align: center;
+
+}
